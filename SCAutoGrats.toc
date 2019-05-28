@@ -1,0 +1,14 @@
+## Interface: 80100
+## Title: |cff00ccffSC Auto Grats!|r
+## Notes: |cFF7F7FFFConfigurable Auto Grats! and Guild Welcome! by The Shadow Collective|r (Version: 1.0.0)
+## Version: 1.0.0
+## Author: Goataraz
+## Email: shadowcollectivekor@gmail.com
+## Discord: https://discord.gg/czpQSKw  @Goataraz#0267
+## SavedVariables: SC_GratsMessage1,SC_GratsMessage2,SC_GratsMessage3,SC_GratsTimeMin,SC_GratsTimeMax,SC_GratsTimeWait,SC_GuildJoinMessageToggle,SC_Guild,SC_Say,SC_Party,SC_Delay,SC_GuildDisabledOverride,SC_GroupingTime,SC_GuildJoinMessageToggle,SC_GuildWelcomeMessage1,SC_GuildWelcomeMessage2,SC_GuildWelcomeMessage3
+## DefaultState: enabled
+
+## AddOn Files ##
+
+core\SCAutoGrats.lua
+core\SCAutograts.xml

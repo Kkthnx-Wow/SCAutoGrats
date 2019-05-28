@@ -29,6 +29,7 @@ function SC_OnLoad(self)
 	
     if(SC_GratsMessage1 == nil or "")then
 		SC_GratsMessage1 = "Grats!";
+		SC_LastMessage = 1;
 	end
 	if(SC_GratsMessage2 == nil or "")then
 		SC_GratsMessage2 = SC_GratsMessage1;
@@ -99,6 +100,24 @@ function SC_SetupOptionsUI()
 	SC_AutoGrats.ui.guildlogo.texture:SetTexture("Interface\\AddOns\\SCAutoGrats\\media\\logo.blp")
 	SC_AutoGrats.ui.guildlogo.texture:Show()
 
+-----------
+-- Feorn --
+-----------
+
+	SC_AutoGrats.ui.feorn = CreateFrame("Frame","feorn",SC_AutoGrats.ui.panel)
+	SC_AutoGrats.ui.feorn:SetFrameLevel(300)
+	SC_AutoGrats.ui.feorn:SetAlpha(1)
+	SC_AutoGrats.ui.feorn:SetWidth(200)
+	SC_AutoGrats.ui.feorn:SetHeight(200)
+	SC_AutoGrats.ui.feorn:SetPoint("BOTTOMRIGHT",SC_AutoGrats.ui.panel,"BOTTOMRIGHT",-265,-70)
+	SC_AutoGrats.ui.feorn.text = SC_AutoGrats.ui.feorn:CreateFontString(nil,"OVERLAY","GameFontNormalLarge")
+	SC_AutoGrats.ui.feorn.text:SetText("For Feorn-Eldre'Thalas, 'Keep blazing and stay amazing!'")
+	SC_AutoGrats.ui.feorn.text:SetPoint("CENTER")
+	SC_AutoGrats.ui.feorn.texture = SC_AutoGrats.ui.feorn:CreateTexture()
+	SC_AutoGrats.ui.feorn.texture:SetAllPoints()
+	SC_AutoGrats.ui.feorn.texture:SetTexture()
+	SC_AutoGrats.ui.feorn.texture:Show()
+	
 ------------------------
 -- Guild Check Button --
 ------------------------

@@ -23,7 +23,7 @@ function SC_OnLoad(self)
     self:RegisterEvent("CHAT_MSG_GUILD_ACHIEVEMENT")
     self:RegisterEvent("CHAT_MSG_ACHIEVEMENT")
     self:RegisterEvent("CHAT_MSG_PARTY")
-    self:RegisterEvent("CHAT_MSG_SYSTEM")
+    --self:RegisterEvent("CHAT_MSG_SYSTEM")
 	self:RegisterEvent("CHAT_MSG_SYSTEM")
 	self:RegisterEvent("GUILD_ROSTER_UPDATE")
 	

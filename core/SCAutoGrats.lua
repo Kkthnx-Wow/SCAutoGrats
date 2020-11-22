@@ -599,19 +599,18 @@ function SC_GuildWelcome()
 end
 
 function SC_IsMe(nameString)
-	local name, server = split(nameString, "-")
-	local myName, myServer = UnitName("player")
-	if (myServer == nil) then
-		myServer = GetRealmName()
+	local name, server = "", ""
+	if (not (nameString == nil)) then
+		name, server = split(nameString, "-")
 	end
 
-	if (server == nil and name == myName) then
+	local myName, myServer = UnitName("player")
+	if (name == myName) then
+		-- print("myName: " .. myName .. "; name: " .. name .. "; nameString: " .. nameString)
 		return true
-	elseif (server ~= nil and name == myName and server == myServer) then
-		return true
-	else
-		return false
 	end
+
+	return false
 end
 
 function SC_CheckOverride()

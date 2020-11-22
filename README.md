@@ -6,4 +6,5 @@ SC Auto Grats! is configurable to send up to 3 different Grats! and Welcome! mes
 This addon will also welcome new members on joining your guild with 3 configurable welcome messages.
 
 I've also provided a way to set a delay on sending messages between 1 and 10 seconds so that you are not immediately sending a message everytime an achievement pops.
-This addon was originally designed to only welcome new guild members, but my guildies wanted an auto grats as well, so this is what they got.
+This addon was originally designed to only welcome new guild members, but my guildies wanted an auto grats as well, so this is what they got.   
+![image](https://user-images.githubusercontent.com/40672673/99919256-5251e400-2cea-11eb-9819-e535a39319c5.png)   

@@ -1,13 +1,10 @@
-<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.blizzard.com/wow/ui/">
-	<Script file="SCAutoGrats.lua" />
-	<Frame name="scautogratsMainFrame">
-		<Scripts>
-			<OnLoad>
-				SC_OnLoad(self);
-			</OnLoad>
-			<OnEvent>
-				SC_OnEvent(self,event,...);
-			</OnEvent>
-		</Scripts>
-	</Frame>
+<?xml version="1.0" encoding="UTF-8"?>
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Script file="SCAutoGrats.lua" />
+   <Frame name="scautogratsMainFrame">
+      <Scripts>
+         <OnLoad>SC_OnLoad(self);</OnLoad>
+         <OnEvent>SC_OnEvent(self,event,...);</OnEvent>
+      </Scripts>
+   </Frame>
 </Ui>
